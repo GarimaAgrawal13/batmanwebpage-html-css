@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2019, 9:53:19 PM
+    Author     : asus
+*/
+body{
+    max-width:1000px;
+    margin:auto;
+    font-family:Roboto;
+    font-size:16px;
+    
+}
+ #p1{
+            font-family:roboto; 
+            font-size: 16px
+   }
+  #im{
+       font:italic small-caps bolder 28px arial, sans-serif;
+   }
+   #bat{
+      // border:1px solid black;
+      // margin-top:5px;
+       padding:20px;
+       float:left;
+   }
+  /*#left{
+       float:left;
+       padding:0;
+       border:none;
+   }
+   #right{
+       float:right;
+       padding:0;
+       border:none;
+   }*/
+  .left{
+       float:left;
+   }
+   .right{
+       float:right;
+   }
+   .box{ 
+       display: inline-block; 
+        width: 40%; 
+        float:left; } 
+   .list_box{ 
+       //display: inline-block;
+       width:100%;
+       overflow:hidden;
+       //float:right;
+   }
+   #image{
+      float: left;
+      padding:0px 20px 20px 20px;
+   }
+   #identity
+   {
+      overflow: auto;
+   }
+   #background_image{
+      background-image :url("img/bat_cover.jpeg");
+     color:#fff;
+        border-radius: 4px;
+     padding: 5px;
+      margin-top: 25px;
+      width:900px;
+      height:500px;
+      background-size: 100%;
+   }
+   #content{
+       padding: 25px 80px;
+       margin-top:140px;
+          //margin-left:0px;
+       max-width:500px;
+       background-color: rgba(0,0,0,0.7);
+      // float:contour;
+   }
+   table{
+       border:1px solid;
+       width:100%;
+       border-collapse: collapse;
+   }
+   th,td{
+      padding:15px;
+      border:1px solid #a4a4a4;
+      height:30px;
+   }
+   nav{
+       list-style-type:none;
+       margin:0;
+       padding:0;
+   }
+  #li1{
+       display:block;
+       color:#666;
+       padding:0px 10px;
+       text-decoration: none;
+       float:right;
+   }
+   #a1{
+       display:block;
+       color:#666;
+       padding:0px 10px;
+       text-decoration: none;
+       float:right;
+   }
+   .logo{
+       float:left;
+       //  height:auto;  
+       height:50px;  
+   }
+   #header{
+       padding: 25px 5px;
+       border-bottom: 2px solid;
+   }
+  .thumbnail { 
+       display: inline-block; 
+       height: auto;
+       //width:auto;
+       padding: 4px;
+       margin-bottom: 20px;
+       background-color: #666; 
+       border: 1px solid #a4a4a4;
+       text-align: center; 
+       color: #fff; 
+       margin: 20px; 
+   } 
+   input { padding: 14px 70px;
+           font-size: 15px;
+           margin-bottom: 30px;
+}
+#subscribe {
+       border: none;
+       background-color: #26211f; 
+       color: white; 
+       font-size: 16px; 
+       margin: 4px -4px; 
+       padding: 16px 40px; }
+
+  @media (min-width:320px)
+  {
+      .container{
+          width:320px;
+      }
+  }
+   @media (min-width:481px)
+  {
+      .container{
+          width:481px;
+      }
+  }
+   @media (min-width:641px)
+  {
+      .container{
+          width:641px;
+      }
+  }
+   @media (min-width:961px)
+  {
+      .container{
+          width:961px;
+      }
+  }
+   @media (min-width:1000px)
+  {
+      .container{
+          width:1000px;
+      }
+  }
+  @media(max-width:481px)
+  {
+      .box{
+          
+      }
+      #image{
+          width:100%;
+      }
+      h2
+      {
+          text-align:center;
+      }
+  }
